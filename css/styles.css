@@ -45,6 +45,15 @@ img {
     overflow: hidden;
 }
 
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+
 .flex {
     display: flex;
 }
@@ -231,6 +240,17 @@ img {
 
 .features-item {
     flex-basis: calc((100% - 72px) / 4);
+}
+
+.features-item__icon {
+    height: 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    margin-bottom: 8px;
 }
 
 .features-item__title {
