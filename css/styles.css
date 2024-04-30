@@ -331,14 +331,7 @@ img {
     display: flex;
     justify-content: center;
     margin-top: 8px;
-}
-
-.social-networks-list.gap-24 {
     gap: 24px;
-}
-
-.social-networks-list.gap-16 {
-    gap: 16px;
 }
 
 .social-networks-list__item {
@@ -475,4 +468,13 @@ img {
     letter-spacing: 0.02em;
     color: #ffffff;
     margin-bottom: 16px;
+}
+
+.footer .social-networks-list {
+    gap: 16px;
+}
+
+.footer .social-networks-list__link:hover,
+.footer .social-networks-list__link:focus {
+    background-color: #31d0aa;
 }
