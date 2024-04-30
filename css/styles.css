@@ -66,6 +66,10 @@ img {
     align-items: center;
 }
 
+.ai-b {
+    align-items: baseline;
+}
+
 .fd-row {
     flex-direction: row;
 }
@@ -326,8 +330,15 @@ img {
 .social-networks-list {
     display: flex;
     justify-content: center;
-    gap: 24px;
     margin-top: 8px;
+}
+
+.social-networks-list.gap-24 {
+    gap: 24px;
+}
+
+.social-networks-list.gap-16 {
+    gap: 16px;
 }
 
 .social-networks-list__item {
@@ -451,4 +462,17 @@ img {
     letter-spacing: 0.02em;
 
     max-width: 264px;
+}
+
+.footer__column:first-child {
+    margin-right: 120px
+}
+
+.footer__title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    margin-bottom: 16px;
 }
